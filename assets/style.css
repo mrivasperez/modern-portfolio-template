@@ -53,6 +53,10 @@ a {
   font-weight: 300;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 p {
   font-weight: 300;
 }
@@ -114,6 +118,17 @@ textarea {
   align-items: center;
   background-color: var(--mainColor);
   border-radius: 5px 5px 0 0;
+}
+
+#navigation {
+  margin: 0;
+  padding: 10px;
+}
+
+#navigation li {
+  display: inline-block;
+  margin-right: 5px;
+  margin-left: 5px;
 }
 
 .dots-wrapper {
