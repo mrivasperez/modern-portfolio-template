@@ -20,6 +20,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Recursive:wght@300;400;600&display=swap");
 
 /* Site Variables */
+
 :root {
   --mainColor: #eaeaea;
   --secondaryColor: #fff;
@@ -29,9 +30,10 @@
   --themeDotBorder: #24292e;
   --previewBg: rgba(251, 249, 243, 0.8);
   --previewShadow: #f0ead6;
+  --btnColor: black;
 }
 
-/* Clear default html style formatting */
+/* Clear and change default HTML style formatting */
 html,
 body {
   padding: 0;
@@ -98,6 +100,8 @@ input,
 textarea {
   color: var(--secondaryTextColor);
 }
+
+/* Header */
 
 .s1 {
   background-color: var(--mainColor);
@@ -295,6 +299,7 @@ textarea {
   left: -5px;
 }
 
+/* About section */
 .about-wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -318,6 +323,8 @@ textarea {
 #social_img {
   width: 100%;
 }
+
+/* "Some of my work" section */
 
 .post-wrapper {
   display: grid;
@@ -356,6 +363,31 @@ textarea {
   color: #4b5156;
   font-size: 14px;
 }
+
+/* Contact Form */
+
+#contact-form {
+  display: block;
+  max-width: 600px;
+  margin: 0 auto;
+  border: 1px solid var(--borderColor);
+  padding: 15px;
+  border-radius: 5px;
+  background-color: var(--mainColor);
+  margin-bottom: 50px;
+}
+
+#submit-btn {
+  margin-top: 10px;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #fff;
+  background-color: var(--btnColor);
+  border: none;
+}
+
+/* Responsive Settings */
 
 @media screen and (max-width: 1200px) {
   .main-container {
