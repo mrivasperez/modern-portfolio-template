@@ -343,6 +343,10 @@ textarea {
   padding: 15px;
 }
 
+.post-preview > a {
+  font-size: 14px;
+}
+
 .post-title {
   color: black;
   margin: 0;
