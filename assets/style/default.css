@@ -72,7 +72,6 @@ textarea {
 }
 
 a {
-  font-family: "Recursive", monospace;
   text-decoration: none;
   color: #17a2b8;
   font-weight: 300;
@@ -80,8 +79,9 @@ a {
 }
 
 a:hover {
-  font-weight: 600;
   text-decoration: underline;
+  font-weight: 600;
+  color: #0e6370;
 }
 
 ul {
@@ -148,17 +148,14 @@ h6 {
 }
 
 .nav-wrapper {
-  border-radius: 5px 5px 0 0;
   grid-area: nav-wrapper;
   border-bottom: 1px solid var(--borderColor);
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: var(--mainColor);
-}
-
-#navigation a {
-  color: var(--mainText);
+  border-radius: 5px 5px 0 0;
+  height: 3em;
 }
 
 #navigation {

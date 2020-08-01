@@ -22,8 +22,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Modern Portfolio</title>
-    <link rel="stylesheet" href="assets/style/default.css" />
-    <link id="theme-style" rel="stylesheet" href="assets/style/blue.css" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1"
+    />
+
+    <link rel="stylesheet" type="text/css" href="/assets/style/default.css" />
+    <link id="theme-style" rel="stylesheet" type="text/css" href="" />
   </head>
   <body>
     <!-- Greeting -->
@@ -57,10 +63,10 @@
               Personalize Theme
             </h5>
             <div id="theme-options-wrapper">
-              <div id="light-mode" class="theme-dot"></div>
-              <div id="blue-mode" class="theme-dot"></div>
-              <div id="green-mode" class="theme-dot"></div>
-              <div id="purple-mode" class="theme-dot"></div>
+              <div data-mode="light" id="light-mode" class="theme-dot"></div>
+              <div data-mode="blue" id="blue-mode" class="theme-dot"></div>
+              <div data-mode="purple" id="purple-mode" class="theme-dot"></div>
+              <!-- <div data-mode="green" id="green-mode" class="theme-dot"></div> -->
             </div>
             <p id="settings-note">
               *Theme settings will be saved for <br />your next visit
@@ -222,5 +228,7 @@
         </form>
       </div>
     </section>
+
+    <script src="assets/script.js"></script>
   </body>
 </html>
