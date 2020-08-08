@@ -37,7 +37,7 @@ for (var i = 0; themeDots.length > i; i++) {
 
 function setTheme(mode) {
   if (mode == "light") {
-    document.getElementById("theme-style").href = "default.css";
+    document.getElementById("theme-style").href = "/assets/style/default.css";
   }
 
   if (mode == "blue") {
